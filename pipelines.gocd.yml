@@ -1,0 +1,17 @@
+pipelines:
+  GocdPlayground_YAML_Plugin:
+    group: playground
+    materials:
+      git:
+        git: https://github.com/ajitsing/GocdPlayground.git
+        branch: master
+    stages:
+      - demo:
+          jobs:
+            run:
+              tasks:
+                - exec:
+                    command: bash
+                    arguments:
+                     - -c
+                     - hello.sh
