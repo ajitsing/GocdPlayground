@@ -1,3 +1,8 @@
+environments:
+  dev:
+    pipelines:
+      - GocdPlayground_YAML_Plugin
+
 pipelines:
   GocdPlayground_YAML_Plugin:
     group: playground
