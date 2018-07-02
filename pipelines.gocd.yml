@@ -19,4 +19,4 @@ pipelines:
                     command: bash
                     arguments:
                      - -c
-                     - hello.sh
+                     - sh hello.sh
