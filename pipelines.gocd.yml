@@ -16,7 +16,7 @@ pipelines:
             run:
               artifacts:
                 - build:
-                    source: *
+                    source: .
                     destination: source_code
               tasks:
                 - exec:
