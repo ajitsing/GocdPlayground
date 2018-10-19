@@ -14,10 +14,6 @@ pipelines:
       - demo:
           jobs:
             run:
-              artifacts:
-                - build:
-                    source: ./*
-                    destination: source_code
               tasks:
                 - exec:
                     command: bash
